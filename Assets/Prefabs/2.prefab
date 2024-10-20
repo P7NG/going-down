@@ -635,9 +635,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   control: 0
   FollowCameraObject: {fileID: 4746608286824628893}
-  maxAcceleration: 150
+  maxAcceleration: 180
   brakeAcceleration: 10000
-  maxSpeed: 250
+  maxSpeed: 180
   reverseSpeed: 20
   turnSensitivity: 0.2
   maxSteerAngle: 140
