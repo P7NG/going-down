@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 305490618504153098}
   m_Layer: 0
   m_Name: WheelFrontLeft
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -83,7 +83,7 @@ GameObject:
   - component: {fileID: 6993170145115800949}
   m_Layer: 0
   m_Name: WheelRearLeft
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -154,7 +154,7 @@ GameObject:
   - component: {fileID: 5800255315447134523}
   m_Layer: 0
   m_Name: Body
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -207,7 +207,7 @@ GameObject:
   - component: {fileID: 8565916831396945702}
   m_Layer: 0
   m_Name: Top
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -259,7 +259,7 @@ GameObject:
   - component: {fileID: 7833924408408625824}
   m_Layer: 0
   m_Name: Colliders
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -293,7 +293,7 @@ GameObject:
   - component: {fileID: 6082951861272216821}
   m_Layer: 0
   m_Name: WheelRearRight
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -364,7 +364,7 @@ GameObject:
   - component: {fileID: 9155982528745822427}
   m_Layer: 0
   m_Name: WheelFrontRight
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -436,7 +436,7 @@ GameObject:
   - component: {fileID: 2220000053833348348}
   m_Layer: 0
   m_Name: HeadLight
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -519,7 +519,7 @@ GameObject:
   - component: {fileID: 4564040683628091767}
   m_Layer: 0
   m_Name: Wheel.Rear.Left
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -602,7 +602,7 @@ GameObject:
   - component: {fileID: 746991130795276435}
   m_Layer: 0
   m_Name: Wheel.Front.Right
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -683,7 +683,7 @@ GameObject:
   - component: {fileID: 878583300984678676}
   m_Layer: 0
   m_Name: SportsCar
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -723,7 +723,7 @@ GameObject:
   - component: {fileID: 4512015414608210209}
   m_Layer: 0
   m_Name: Wheel.Front.Left
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -806,7 +806,7 @@ GameObject:
   - component: {fileID: 6370096481809946549}
   m_Layer: 0
   m_Name: SportsCar
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -889,7 +889,7 @@ GameObject:
   - component: {fileID: 1937485542858978160}
   m_Layer: 0
   m_Name: WheelColliders
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -926,7 +926,7 @@ GameObject:
   - component: {fileID: 2826975517244915236}
   m_Layer: 0
   m_Name: Wheel.Rear.Right
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1011,7 +1011,7 @@ GameObject:
   - component: {fileID: 3614196812954370305}
   m_Layer: 0
   m_Name: 4
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1225,7 +1225,7 @@ GameObject:
   - component: {fileID: 2699082669398877138}
   m_Layer: 0
   m_Name: TailLight
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

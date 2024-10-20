@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 3496718493993701535}
   m_Layer: 0
   m_Name: rearrightcollider
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -83,7 +83,7 @@ GameObject:
   - component: {fileID: 6819137413435239157}
   m_Layer: 0
   m_Name: frontleftcollider
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -154,7 +154,7 @@ GameObject:
   - component: {fileID: 4176592180466162661}
   m_Layer: 0
   m_Name: 'reareftcollider '
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -225,7 +225,7 @@ GameObject:
   - component: {fileID: 216950451760734171}
   m_Layer: 0
   m_Name: 'frontrightcollider '
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -295,7 +295,7 @@ GameObject:
   - component: {fileID: 5062795360743882145}
   m_Layer: 0
   m_Name: wheel colliders
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -327,6 +327,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -6850649477931804350, guid: 442a7ad46f75d47089dc79f54079fed4, type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: -5924683504314061156, guid: 442a7ad46f75d47089dc79f54079fed4, type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: -5641027500785558347, guid: 442a7ad46f75d47089dc79f54079fed4, type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 442a7ad46f75d47089dc79f54079fed4, type: 3}
       propertyPath: m_LocalPosition.x
       value: -40
@@ -367,9 +379,29 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -3599152455300903839, guid: 442a7ad46f75d47089dc79f54079fed4, type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     - target: {fileID: -927199367670048503, guid: 442a7ad46f75d47089dc79f54079fed4, type: 3}
       propertyPath: m_Name
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 442a7ad46f75d47089dc79f54079fed4, type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 1642965907638032904, guid: 442a7ad46f75d47089dc79f54079fed4, type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 5133913965574556032, guid: 442a7ad46f75d47089dc79f54079fed4, type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 7530995387843108965, guid: 442a7ad46f75d47089dc79f54079fed4, type: 3}
+      propertyPath: m_TagString
+      value: Player
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
