@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using YG;
 
 public class GameController : MonoBehaviour
 {
@@ -15,6 +16,7 @@ public class GameController : MonoBehaviour
 
     private void Start()
     {
+        YandexGame.GameReadyAPI();
         _carInGame = null;
         Restart();
     }
