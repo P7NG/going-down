@@ -34,7 +34,6 @@ namespace CameraControlsforcar
         {
             Vector3 direction = carTarget.position - transform.position;
             Quaternion rotation = Quaternion.LookRotation(direction + rotOffset, Vector3.up);
-            Quaternion rotate = new Quaternion(rotation.x, transform.rotation.y, -transform.rotation.z, transform.rotation.w);
             transform.rotation = Quaternion.Lerp(transform.rotation, rotation, rotSmoothness * Time.deltaTime);
         }
     }

@@ -369,7 +369,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -927199367670048503, guid: 442a7ad46f75d47089dc79f54079fed4, type: 3}
       propertyPath: m_Name
-      value: SurferVan
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -417,6 +417,11 @@ Transform:
 --- !u!1 &3824374910679364914 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -5641027500785558347, guid: 442a7ad46f75d47089dc79f54079fed4, type: 3}
+  m_PrefabInstance: {fileID: 334924264589371783}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &4746608286824628893 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: 442a7ad46f75d47089dc79f54079fed4, type: 3}
   m_PrefabInstance: {fileID: 334924264589371783}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &8612024667371040910 stripped
@@ -597,6 +602,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   control: 0
+  FollowCameraObject: {fileID: 4746608286824628893}
   maxAcceleration: 150
   brakeAcceleration: 10000
   maxSpeed: 250

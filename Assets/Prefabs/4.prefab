@@ -1186,6 +1186,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   control: 0
+  FollowCameraObject: {fileID: 4069155991056351016}
   maxAcceleration: 150
   brakeAcceleration: 1000
   maxSpeed: 230
