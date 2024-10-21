@@ -21,7 +21,10 @@ namespace YG
         // ...
 
         // Поля (сохранения) можно удалять и создавать новые. При обновлении игры сохранения ломаться не должны
-
+        public float Volume;
+        public int CurrentCar;
+        public int CurrentSpawnPlace;
+        public bool RandomPhase = false;
 
         // Вы можете выполнить какие то действия при загрузке сохранений
         public SavesYG()

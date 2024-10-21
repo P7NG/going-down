@@ -16,19 +16,19 @@ public class GameController : MonoBehaviour
 
     private void Start()
     {
-        YandexGame.GameReadyAPI();
+        
         _carInGame = null;
-        Restart();
+       
     }
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.R))
         {
-            Restart();
+            Spawn();
         }
     }
 
-    private void Restart()
+    public void Spawn()
     {
         if (_carInGame != null)
         {
@@ -37,6 +37,7 @@ public class GameController : MonoBehaviour
         GameObject car = Instantiate(Cars[CurrentCar].gameObject, SpawnPlaces[CurrentSpawnPlace].position, Quaternion.identity);
         _carInGame = car.GetComponent<CarContollingScripts.CarController>();
         CameraFollowScript.target = _carInGame.FollowCameraObject;
+        _carInGame.Controller = this;
     }
 
     public void NextLevel()
@@ -67,6 +68,6 @@ public class GameController : MonoBehaviour
             CurrentCar = Random.RandomRange(0, 4);
         }
 
-        Restart();
+        Spawn();
     }
 }

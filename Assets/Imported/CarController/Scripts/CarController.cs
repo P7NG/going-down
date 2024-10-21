@@ -1,6 +1,7 @@
 using UnityEngine;
 using System;
 using System.Collections.Generic;
+using YG;
 
    namespace CarContollingScripts
 { 
@@ -37,6 +38,7 @@ using System.Collections.Generic;
 
     public float turnSensitivity = 1.0f;
     public float maxSteerAngle = 30.0f;
+        public GameController Controller;
 
     public Vector3 _centerOfMass;
 
@@ -72,7 +74,15 @@ using System.Collections.Generic;
         }
     }
 
-    void FixedUpdate()
+     private void Update()
+     {
+            if(transform.position.y < -800)
+            {
+                YandexGame.FullscreenShow();
+                Controller.Spawn();
+            }  
+     }
+        void FixedUpdate()
     {
         GetInputs();
         AnimateWheels();
