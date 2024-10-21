@@ -77,13 +77,14 @@ using System.Collections.Generic;
         GetInputs();
         AnimateWheels();
         WheelEffects();
+        Move();
+        Steer();
+        Brake();
     }
 
     void LateUpdate()
     {
-        Move();
-        Steer();
-        Brake();
+        
     }
 
     public void MoveInput(float input)
