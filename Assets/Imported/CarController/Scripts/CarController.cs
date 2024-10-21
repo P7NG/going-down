@@ -72,7 +72,7 @@ using System.Collections.Generic;
         }
     }
 
-    void Update()
+    void FixedUpdate()
     {
         GetInputs();
         AnimateWheels();
