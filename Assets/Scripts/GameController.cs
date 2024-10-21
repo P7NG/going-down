@@ -14,6 +14,8 @@ public class GameController : MonoBehaviour
     public CarContollingScripts.CarController _carInGame;
     public bool RandomPhase = false;
 
+    public bool IsMobile;
+
     private void Start()
     {
         

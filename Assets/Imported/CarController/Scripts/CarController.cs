@@ -20,6 +20,8 @@ using YG;
     }
 
     [Serializable]
+
+    
     public struct Wheel
     {
         public GameObject wheelModel;
@@ -44,7 +46,7 @@ using YG;
 
     public List<Wheel> wheels;
 
-    float moveInput;
+        float moveInput;
     float steerInput;
     bool isBraking;
     bool isReversing;
@@ -53,7 +55,16 @@ using YG;
 
     void Start()
     {
-        carRb = GetComponent<Rigidbody>();
+            if (YandexGame.EnvironmentData.isMobile)
+            {
+                control = ControlMode.Buttons;
+            }
+            else
+            {
+                control = ControlMode.Keyboard;
+            }
+
+            carRb = GetComponent<Rigidbody>();
         carRb.centerOfMass = _centerOfMass;
 
         // Initialize Trail Renderer if it exists in each wheel

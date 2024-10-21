@@ -1,0 +1,17 @@
+{
+  "idSave": 257,
+  "isFirstSession": false,
+  "language": "en",
+  "promptDone": false,
+  "money": 1,
+  "newPlayerName": "Hello!",
+  "openLevels": [
+    false,
+    true,
+    false
+  ],
+  "Volume": -12.8978586,
+  "CurrentCar": 0,
+  "CurrentSpawnPlace": 0,
+  "RandomPhase": false
+}

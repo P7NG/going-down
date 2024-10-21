@@ -13,17 +13,23 @@ public class MainMenu : MonoBehaviour
     [SerializeField] private AudioMixer _mixer;
 
     private bool _isMobile;
-    private void Start()
+    private void Awake()
     {
         YandexGame.GameReadyAPI();
+    }
+    private void Start()
+    {
+        
         _isMobile = !YandexGame.EnvironmentData.isDesktop;
         GetData();
+        _gameController.IsMobile = _isMobile;
     }
 
     private void GetData()
     {
         _volumeSlider.value = YandexGame.savesData.Volume;
         _mixer.SetFloat("All", _volumeSlider.value);
+        Debug.Log(YandexGame.SDKEnabled);
     }
 
     public void Play()
@@ -31,6 +37,10 @@ public class MainMenu : MonoBehaviour
         if (_isMobile)
         {
             _mobileUI.SetActive(true);
+        }
+        else
+        {
+            _mobileUI.SetActive(false);
         }
 
         _gameController.Spawn();

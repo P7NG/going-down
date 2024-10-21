@@ -394,8 +394,8 @@ AudioSource:
   m_GameObject: {fileID: 3225874551983908691}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: 24300002, guid: cb69bcae9fb6c374da8ba74f64bea372, type: 2}
+  m_audioClip: {fileID: 8300000, guid: 72514165538d67649970d3e1a63bef8f, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -501,6 +501,7 @@ MonoBehaviour:
   reverseSpeed: 400
   turnSensitivity: 0.2
   maxSteerAngle: 140
+  Controller: {fileID: 0}
   _centerOfMass: {x: 0, y: 0, z: 0}
   wheels:
   - wheelModel: {fileID: 4883944843031219016}
