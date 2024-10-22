@@ -16,6 +16,19 @@ public class GameController : MonoBehaviour
 
     public bool IsMobile;
     public MobileInputForCar.MobileInput CanvasInputScript;
+    public MainMenu mainMenu;
+
+    public void CloseMouse()
+    {
+        Cursor.lockState = CursorLockMode.Locked;
+        Cursor.visible = false;
+    }
+
+    public void OpenMouse()
+    {
+        Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;
+    }
 
     private void Start()
     {
@@ -34,9 +47,28 @@ public class GameController : MonoBehaviour
         }
     }
 
+    public void OnApplicationFocus(bool hasFocus)
+    {
+        if (!hasFocus)
+        {
+            mainMenu.ChangeSoundScript(-80);
+        }
+        else
+        {
+            mainMenu.ChangeSoundScript(YandexGame.savesData.Volume);
+        }
+    }
+
     public void Delete()
     {
         Destroy(_carInGame.gameObject);
+    }
+
+    private IEnumerator InvisibleMouse()
+    {
+        yield return new WaitForSeconds(0.5f);
+        Cursor.lockState = CursorLockMode.Locked;
+        Cursor.visible = false;
     }
 
     public void Spawn()
@@ -50,7 +82,13 @@ public class GameController : MonoBehaviour
         CameraFollowScript.target = _carInGame.FollowCameraObject;
         _carInGame.Controller = this;
         CanvasInputScript.carController = _carInGame;
+        _carInGame.gameController = this;
         YandexGame.FullscreenShow();
+    }
+
+    public void CursorControll()
+    {
+        StartCoroutine(InvisibleMouse());
     }
 
     public void NextLevel()

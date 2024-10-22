@@ -34,6 +34,11 @@ public class MainMenu : MonoBehaviour
         Debug.Log(YandexGame.SDKEnabled);
     }
 
+    public void ChangeSoundScript(float volume)
+    {
+        _mixer.SetFloat("All", volume);
+    }
+
     public void Play()
     {
         if (_isMobile)

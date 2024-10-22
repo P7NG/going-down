@@ -81,6 +81,8 @@ namespace GameMenu
             mainMenu.SetActive(true);
             gameController.Delete();
             Resume();
+            Cursor.lockState = CursorLockMode.None;
+            Cursor.visible = true;
             PausePanel.SetActive(false);
         }
     }

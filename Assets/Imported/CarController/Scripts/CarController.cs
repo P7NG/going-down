@@ -53,6 +53,8 @@ using YG;
 
     private Rigidbody carRb;
 
+        public GameController gameController;
+
     void Start()
     {
             if (YandexGame.EnvironmentData.isMobile)
@@ -83,6 +85,8 @@ using YG;
                 #endif
             }
         }
+
+            gameController.CursorControll();
     }
 
      private void Update()
