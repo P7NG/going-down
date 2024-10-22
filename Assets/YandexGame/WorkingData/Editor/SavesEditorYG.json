@@ -1,7 +1,7 @@
 {
-  "idSave": 339,
+  "idSave": 526,
   "isFirstSession": false,
-  "language": "en",
+  "language": "ru",
   "promptDone": false,
   "money": 1,
   "newPlayerName": "Hello!",
@@ -10,7 +10,7 @@
     true,
     false
   ],
-  "Volume": -9.028506,
+  "Volume": -21.2952652,
   "CurrentCar": 0,
   "CurrentSpawnPlace": 0,
   "RandomPhase": false
