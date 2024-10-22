@@ -15,12 +15,16 @@ public class GameController : MonoBehaviour
     public bool RandomPhase = false;
 
     public bool IsMobile;
+    public MobileInputForCar.MobileInput CanvasInputScript;
 
     private void Start()
     {
         
         _carInGame = null;
-       
+
+        CurrentCar = YandexGame.savesData.CurrentCar;
+        CurrentSpawnPlace = YandexGame.savesData.CurrentSpawnPlace;
+        RandomPhase = YandexGame.savesData.RandomPhase;
     }
     void Update()
     {
@@ -40,6 +44,8 @@ public class GameController : MonoBehaviour
         _carInGame = car.GetComponent<CarContollingScripts.CarController>();
         CameraFollowScript.target = _carInGame.FollowCameraObject;
         _carInGame.Controller = this;
+        CanvasInputScript.carController = _carInGame;
+        YandexGame.FullscreenShow();
     }
 
     public void NextLevel()
@@ -69,6 +75,15 @@ public class GameController : MonoBehaviour
             CurrentSpawnPlace = Random.RandomRange(0, 4);
             CurrentCar = Random.RandomRange(0, 4);
         }
+
+        YandexGame.savesData.CurrentCar = CurrentCar;
+        YandexGame.savesData.CurrentSpawnPlace = CurrentSpawnPlace;
+        YandexGame.savesData.RandomPhase = RandomPhase;
+        YandexGame.savesData.Scores++;
+        YandexGame.NewLeaderboardScores("Scores", YandexGame.savesData.Scores);
+        YandexGame.SaveProgress();
+
+        YandexGame.FullscreenShow();
 
         Spawn();
     }

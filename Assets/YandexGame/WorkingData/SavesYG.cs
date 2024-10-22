@@ -25,6 +25,7 @@ namespace YG
         public int CurrentCar;
         public int CurrentSpawnPlace;
         public bool RandomPhase = false;
+        public int Scores;
 
         // Вы можете выполнить какие то действия при загрузке сохранений
         public SavesYG()

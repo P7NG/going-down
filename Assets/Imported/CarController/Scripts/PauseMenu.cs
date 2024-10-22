@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+
 namespace GameMenu
 {
     public class PauseMenu : MonoBehaviour
@@ -9,10 +10,16 @@ namespace GameMenu
         public GameObject PausePanel;
         private AudioSource[] audioSources;
 
+        public bool IsPause = false;
+        public GameObject MobileUI;
+        private bool _isMobile = true;
+
         void Start()
         {
-            // Initial setup if needed, but not necessary to get audio sources here
+            _isMobile = 
         }
+
+        
 
         public void Pause()
         {
