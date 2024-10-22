@@ -34,6 +34,11 @@ public class GameController : MonoBehaviour
         }
     }
 
+    public void Delete()
+    {
+        Destroy(_carInGame.gameObject);
+    }
+
     public void Spawn()
     {
         if (_carInGame != null)

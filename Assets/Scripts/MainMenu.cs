@@ -19,7 +19,9 @@ public class MainMenu : MonoBehaviour
     }
     private void Start()
     {
-        
+        Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;
+
         _isMobile = !YandexGame.EnvironmentData.isDesktop;
         GetData();
         _gameController.IsMobile = _isMobile;
@@ -43,6 +45,8 @@ public class MainMenu : MonoBehaviour
             _mobileUI.SetActive(false);
         }
 
+        Cursor.lockState = CursorLockMode.Locked;
+        Cursor.visible = false;
         _gameController.Spawn();
         gameObject.SetActive(false);
     }
