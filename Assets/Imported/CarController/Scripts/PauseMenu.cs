@@ -16,7 +16,7 @@ namespace GameMenu
 
         void Start()
         {
-            _isMobile = 
+            
         }
 
         
