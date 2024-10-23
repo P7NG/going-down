@@ -1,5 +1,5 @@
 {
-  "idSave": 1165,
+  "idSave": 1182,
   "isFirstSession": false,
   "language": "ru",
   "promptDone": false,
@@ -12,7 +12,7 @@
   ],
   "Volume": -80.0,
   "CurrentCar": 1,
-  "CurrentSpawnPlace": 0,
+  "CurrentSpawnPlace": 2,
   "RandomPhase": false,
-  "Scores": 1
+  "Scores": 4
 }

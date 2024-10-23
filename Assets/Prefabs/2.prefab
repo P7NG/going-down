@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 2584542531196405248}
   m_Layer: 0
   m_Name: Wheel_FR
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -168,7 +168,7 @@ GameObject:
   - component: {fileID: 7216562390624064740}
   m_Layer: 0
   m_Name: Wheel_RR
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -252,7 +252,7 @@ GameObject:
   - component: {fileID: 6002847804043235284}
   m_Layer: 0
   m_Name: Body
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -448,7 +448,7 @@ GameObject:
   - component: {fileID: 8511173952647241568}
   m_Layer: 0
   m_Name: 2
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -504,11 +504,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   control: 0
   FollowCameraObject: {fileID: 5244722454464089926}
-  maxAcceleration: 200
-  brakeAcceleration: 7000
-  maxSpeed: 280
-  reverseSpeed: 400
-  turnSensitivity: 0.2
+  maxAcceleration: 15
+  brakeAcceleration: 50000
+  maxSpeed: 100
+  reverseSpeed: 20
+  turnSensitivity: 0.1
   maxSteerAngle: 140
   Controller: {fileID: 0}
   _centerOfMass: {x: 0, y: 0, z: 0}
@@ -829,7 +829,7 @@ GameObject:
   - component: {fileID: 6755111874405346374}
   m_Layer: 0
   m_Name: Wheel_RL
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -913,7 +913,7 @@ GameObject:
   - component: {fileID: 2516270025652841654}
   m_Layer: 0
   m_Name: Wheel_FL
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

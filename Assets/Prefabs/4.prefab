@@ -1187,10 +1187,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   control: 0
   FollowCameraObject: {fileID: 4069155991056351016}
-  maxAcceleration: 200
-  brakeAcceleration: 10000
-  maxSpeed: 500
-  reverseSpeed: 200
+  maxAcceleration: 50
+  brakeAcceleration: 50000
+  maxSpeed: 200
+  reverseSpeed: 60
   turnSensitivity: 0.2
   maxSteerAngle: 140
   Controller: {fileID: 0}
@@ -1212,6 +1212,7 @@ MonoBehaviour:
     wheelCollider: {fileID: 6082951861272216821}
     axel: 1
     trailRenderer: {fileID: 0}
+  gameController: {fileID: 0}
 --- !u!1 &9192175355617455870
 GameObject:
   m_ObjectHideFlags: 0

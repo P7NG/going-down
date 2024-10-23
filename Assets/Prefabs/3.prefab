@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 1610565526733586916}
   m_Layer: 0
   m_Name: front wheel r
-  m_TagString: Untagged
+  m_TagString: Finish
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -95,7 +95,7 @@ GameObject:
   - component: {fileID: 2992146480257096713}
   m_Layer: 0
   m_Name: Wheel_RearLeft
-  m_TagString: Player
+  m_TagString: Finish
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -165,7 +165,7 @@ GameObject:
   - component: {fileID: 6157176268736282917}
   m_Layer: 0
   m_Name: Colliders
-  m_TagString: Player
+  m_TagString: Finish
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -201,7 +201,7 @@ GameObject:
   - component: {fileID: 4141643933416465209}
   m_Layer: 0
   m_Name: Wheel_RearRight
-  m_TagString: Player
+  m_TagString: Finish
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -273,7 +273,7 @@ GameObject:
   - component: {fileID: 1180890872126056234}
   m_Layer: 0
   m_Name: front wheel l
-  m_TagString: Untagged
+  m_TagString: Finish
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -356,7 +356,7 @@ GameObject:
   - component: {fileID: 8834458787079936937}
   m_Layer: 0
   m_Name: rear wheel r
-  m_TagString: Untagged
+  m_TagString: Finish
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -444,7 +444,7 @@ GameObject:
   - component: {fileID: 6100376819577268436}
   m_Layer: 0
   m_Name: 3
-  m_TagString: Untagged
+  m_TagString: Finish
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -554,11 +554,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   control: 0
   FollowCameraObject: {fileID: 957563439957205365}
-  maxAcceleration: 200
-  brakeAcceleration: 7000
-  maxSpeed: 280
-  reverseSpeed: 400
-  turnSensitivity: 0.2
+  maxAcceleration: 30
+  brakeAcceleration: 50000
+  maxSpeed: 90
+  reverseSpeed: 10
+  turnSensitivity: 0.1
   maxSteerAngle: 140
   Controller: {fileID: 0}
   _centerOfMass: {x: 0, y: 0, z: 0}
@@ -604,7 +604,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4938506880741896154}
   serializedVersion: 4
-  m_Mass: 1000
+  m_Mass: 3000
   m_Drag: 0
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -732,7 +732,7 @@ GameObject:
   - component: {fileID: 1344283732452081263}
   m_Layer: 0
   m_Name: rear wheel l
-  m_TagString: Untagged
+  m_TagString: Finish
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -814,7 +814,7 @@ GameObject:
   - component: {fileID: 7503198916333782669}
   m_Layer: 0
   m_Name: Wheel_FrontLeft
-  m_TagString: Player
+  m_TagString: Finish
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -885,7 +885,7 @@ GameObject:
   - component: {fileID: 9198853617334196830}
   m_Layer: 0
   m_Name: Wheel_FrontRight
-  m_TagString: Player
+  m_TagString: Finish
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
